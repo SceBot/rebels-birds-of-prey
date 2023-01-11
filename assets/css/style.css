@@ -1,5 +1,9 @@
 /*--------------------------------------------header*/
 
+header {
+    padding-bottom: 15px;
+}
+
 .hero-image {
     background: url("../images/rebel.jpg");
     background-position: 10% 25%;
@@ -74,7 +78,16 @@
 }
 
 .info-section {
-    margin: auto;
+    margin: inherit;
+    padding: 30px;
+}
+
+.info-section>h2 {
+    text-align: center;
+}
+
+section>h1 {
+    text-align: center;
 }
 
 /*--------------------------------------------bird images*/
