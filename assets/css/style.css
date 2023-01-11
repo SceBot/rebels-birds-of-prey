@@ -21,9 +21,6 @@
     
 }
 
-/*--------------------------------------------section*/
-
-
 
 /*--------------------------------------------about*/
 
@@ -58,6 +55,77 @@
     max-width: 40%;
     margin-left: 10%;
     margin-bottom: 15px;
+    
+}
+
+/*--------------------------------------------visitor information*/
+
+#open-times>div {
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+}
+
+#experiences>div {
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+}
+
+/*--------------------------------------------bird images*/
+
+#barn-owl {
+    background: url("../images/barn.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    height: 250px;
+    
+}
+
+#tawny-owl {
+    background: url("../images/tawny.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    height: 250px;
+    
+}
+
+#little-owl {
+    background: url("../images/little.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    height: 250px;
+    
+}
+
+#long-eared {
+    background: url("../images/long-eared.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    height: 250px;
+    
+}
+
+#buzzard {
+    background: url("../images/buzzard.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    height: 250px;
     
 }
 
