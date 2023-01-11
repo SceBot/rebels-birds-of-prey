@@ -15,11 +15,12 @@
     color: #f3f3f3;
 }
 
-#navigation {
-    color: #36454f;
+#nav>a {
+    color: #e5de00;
     
     
 }
+
 
 
 /*--------------------------------------------about*/
@@ -70,6 +71,10 @@
     border-style: solid;
     border-width: 1px;
     border-color: black;
+}
+
+.info-section {
+    margin: auto;
 }
 
 /*--------------------------------------------bird images*/
@@ -131,12 +136,14 @@
 
 /*--------------------------------------------background colors*/
 
-#about {
-    background-color: #e5de00;
-}
 
 body {
     background-color: #48494b;
+}
+
+.bg-yellow {
+    background-color: #e5de00;
+    border: solid 1px black;
 }
 
 /*--------------------------------------------footer*/
