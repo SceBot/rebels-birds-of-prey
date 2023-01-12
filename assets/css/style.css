@@ -86,64 +86,44 @@ section>h1 {
     height: 25%;
 }
 
+.map {
+    text-align: center;
+    margin: 10px;
+}
+
+
+
 
 
 /*--------------------------------------------bird images*/
 
-#barn-owl {
-    background: url("../images/barn.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    border-style: solid;
-    border-width: 2px;
-    border-color: black;
-    height: 250px;
-    
-}
-
-#tawny-owl {
-    background: url("../images/tawny.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    border-style: solid;
-    border-width: 2px;
-    border-color: black;
-    height: 250px;
-    
-}
-
-#little-owl {
-    background: url("../images/little.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    border-style: solid;
-    border-width: 2px;
-    border-color: black;
-    height: 250px;
-    
-}
-
-#long-eared {
-    background: url("../images/long-eared.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    border-style: solid;
-    border-width: 2px;
-    border-color: black;
-    height: 250px;
-    
-}
-
+#barn-owl, 
+#tawny-owl, 
+#little-owl, 
+#long-eared, 
 #buzzard {
-    background: url("../images/buzzard.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
+    
+    background-color: red;
+    text-align: center;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+#barn-owl img, 
+#tawny-owl img, 
+#little-owl img,
+#long-eared img,
+#buzzard img {
+    
     border-style: solid;
     border-width: 2px;
     border-color: black;
-    height: 250px;
+    width: 100%;
+    
     
 }
+
+
 
 /*--------------------------------------------background colors*/
 
