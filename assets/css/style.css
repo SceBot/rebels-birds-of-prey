@@ -1,5 +1,10 @@
 /*--------------------------------------------header*/
 
+.hero {
+    padding: 0;
+    position: relative;
+}
+
 header {
     
     margin-bottom: 1em;
@@ -19,11 +24,30 @@ header {
     color: #f3f3f3;
 }
 
+
+
 #nav>a {
     color: #e5de00;
+    background-color: #48494b;
+    margin: 0;
+    display: inline-block;
+    border-bottom: solid 1px black;
     
     
 }
+
+.navigation {
+    background-color: #48494b;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    
+}
+
+.navbar {
+    padding: 0;
+}
+
 
 
 
@@ -50,6 +74,8 @@ header {
     
     
 }
+
+
 
 /*--------------------------------------------visitor information*/
 
@@ -108,7 +134,7 @@ h1 {
 #long-eared, 
 #buzzard {
     
-    background-color: red;
+    
     text-align: center;
     padding-left: 0;
     padding-right: 0;
@@ -126,6 +152,10 @@ h1 {
     width: 100%;
     
     
+}
+
+.bbp {
+    margin-bottom: 1em;
 }
 
 
@@ -153,7 +183,7 @@ footer {
 }
 
 .contact  {
-    padding: 1em 0;
+    padding: 1em;
 }
 
 .contact div {
