@@ -1,7 +1,8 @@
 /*--------------------------------------------header*/
 
 header {
-    padding-bottom: 15px;
+    
+    margin-bottom: 1em;
 }
 
 .hero-image {
@@ -15,7 +16,6 @@ header {
 }
 
 .hero-text {
-    text-align: left;
     color: #f3f3f3;
 }
 
@@ -29,31 +29,25 @@ header {
 
 /*--------------------------------------------about*/
 
-.about-parent {
-
-    padding-top: 25px;
-    margin-right: 0px;
-}
 
 .rebel-img {
     
-    border-style: solid;
-    border-width: 2px;
-    border-color: black;
+    
     padding-left: 0;
     overflow: hidden;
     text-align: center;   
 }
 
+.rebel-img img {
+    margin: 0 auto;
+    border: solid 1px black;
+}
+
  #about {
     
-    padding: 25px 30px;
-    border-style: solid;
-    border-width: 2px;
-    border-color: black;
-    max-width: 40%;
-    margin-left: 10%;
-    margin-bottom: 15px;
+    padding: 1em;
+    border: solid 1px black;
+    
     
 }
 
@@ -86,9 +80,20 @@ section>h1 {
     height: 25%;
 }
 
-.map {
+.map-container {
     text-align: center;
-    margin: 10px;
+    margin: 1em;
+}
+
+.map {
+    border: solid 1px black;
+    width: 600px;
+    height: 450px;
+    margin: 0 auto;
+}
+
+h1 {
+    color: #f3f3f3;
 }
 
 
@@ -116,7 +121,7 @@ section>h1 {
 #buzzard img {
     
     border-style: solid;
-    border-width: 2px;
+    border-width: 1px;
     border-color: black;
     width: 100%;
     
@@ -142,22 +147,22 @@ body {
 footer {
     background-color: #404033;
     color: #f8f8f8;
-    margin: 0;
+    margin: 1em 0 0 0;
     position: relative;
     bottom: 0;
 }
 
 .contact  {
-    padding: 15px 0;
+    padding: 1em 0;
 }
 
 .contact div {
     display: inline-block;
-    padding-right: 20px;
+    padding-right: 1em;
 }
 
 .social-links {
-    padding: 15px 15px 0 0;
+    padding: 1em 0;
 }
 
 .social-links li a i {
